@@ -1,3 +1,5 @@
+package main.array;
+
 import org.junit.Assert;
 
 /**
@@ -8,7 +10,7 @@ import org.junit.Assert;
 
 /***----------  Try alternative solution later on ----------***/
 
-public class Q11_WaterContainer {
+public class Q11_Array_WaterContainer {
 
   public static int maxArea(int[] height) {
 
@@ -26,7 +28,7 @@ public class Q11_WaterContainer {
   }
 
   public static void main(String args[]){
-    Assert.assertEquals(17, Q11_WaterContainer.maxArea(new int[]{2,3,4,5,18,17,6}));
+    Assert.assertEquals(17, Q11_Array_WaterContainer.maxArea(new int[]{2,3,4,5,18,17,6}));
   }
 
 }

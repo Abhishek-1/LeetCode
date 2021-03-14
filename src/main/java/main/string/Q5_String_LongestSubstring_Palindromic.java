@@ -1,6 +1,8 @@
+package main.string;
+
 import org.junit.Assert;
 
-public class Q5_LongestPalindromicSubstring {
+public class Q5_String_LongestSubstring_Palindromic {
 
   /****
    *
@@ -36,7 +38,7 @@ public class Q5_LongestPalindromicSubstring {
   }
 
   public static void main(String[] args){
-    Assert.assertEquals("bab", Q5_LongestPalindromicSubstring.longestPalindrome("babcd"));
+    Assert.assertEquals("bab", Q5_String_LongestSubstring_Palindromic.longestPalindrome("babcd"));
   }
 
 }

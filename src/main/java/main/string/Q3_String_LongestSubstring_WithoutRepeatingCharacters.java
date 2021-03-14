@@ -1,3 +1,5 @@
+package main.string;
+
 import java.util.HashSet;
 import java.util.LinkedList;
 import java.util.Queue;
@@ -15,7 +17,7 @@ import org.junit.Assert;
 
  */
 
-public class Q3_LongestSubstringWithoutRepeatingCharacters {
+public class Q3_String_LongestSubstring_WithoutRepeatingCharacters {
 
   /**** Using Queue ****/
   public static int lengthOfLongestSubstringQueue(String s) {
@@ -29,7 +31,7 @@ public class Q3_LongestSubstringWithoutRepeatingCharacters {
         start ++;
       }
       queue.offer(s.charAt(i));
-      max = Math.max(max, queue.size());
+      max = Math.max(max, i-start+1);
     }
     return max;
   }
@@ -55,9 +57,9 @@ public class Q3_LongestSubstringWithoutRepeatingCharacters {
   }
 
   public static void main(String args[]){
-    int output1 = Q3_LongestSubstringWithoutRepeatingCharacters.lengthOfLongestSubstringQueue("abcabcbb");
+    int output1 = Q3_String_LongestSubstring_WithoutRepeatingCharacters.lengthOfLongestSubstringQueue("abcabcbb");
     Assert.assertEquals(output1, 3);
-    int output2 = Q3_LongestSubstringWithoutRepeatingCharacters.lengthOfLongestSubstringSet("abcabcbb");
+    int output2 = Q3_String_LongestSubstring_WithoutRepeatingCharacters.lengthOfLongestSubstringSet("abcabcbb");
     Assert.assertEquals(output2, 3);
   }
 

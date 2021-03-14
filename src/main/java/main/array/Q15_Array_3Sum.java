@@ -1,3 +1,5 @@
+package main.array;
+
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
@@ -16,7 +18,7 @@ import org.junit.Assert;
  *
  */
 
-public class Q15_3Sum {
+public class Q15_Array_3Sum {
 
   public static List<List<Integer>> threeSum(int[] nums) {
     Arrays.sort(nums);

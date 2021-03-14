@@ -1,4 +1,7 @@
+package main.linkedList;
+
 import java.util.PriorityQueue;
+import main.ListNode;
 
 /**
  * Problem - 21
@@ -8,7 +11,7 @@ import java.util.PriorityQueue;
  * Input: l1 = [1,2,4], l2 = [1,3,4]
  * Output: [1,1,2,3,4,4]
  */
-public class Q21_Merge2_Sorted_List {
+public class Q21_List_Merge_Two_Sorted_List {
 
   /** Using Priority Queue **/
   public ListNode mergeTwoLists_PriorityQueue(ListNode l1, ListNode l2) {

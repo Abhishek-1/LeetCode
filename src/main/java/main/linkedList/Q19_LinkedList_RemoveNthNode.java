@@ -1,9 +1,13 @@
+package main.linkedList;
+
+import main.ListNode;
+
 /**
  * Problem - 19
  *
  * Given the head of a linked list, remove the nth node from the end of the list and return its head.
  */
-public class Q19_Remove_Nth_Node {
+public class Q19_LinkedList_RemoveNthNode {
 
   public ListNode removeNthFromEnd(ListNode head, int n) {
 

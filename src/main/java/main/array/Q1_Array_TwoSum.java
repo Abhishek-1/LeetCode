@@ -1,3 +1,5 @@
+package main.array;
+
 import org.junit.Assert;
 
 import java.util.HashMap;
@@ -17,7 +19,7 @@ You can return the answer in any order.
  Output: Because nums[0] + nums[1] == 9, we return [0, 1].
 
  ****/
-public class Q1_TwoSum {
+public class Q1_Array_TwoSum {
     public static int[] twoSum(int[] nums, int target) {
 
       Map<Integer, Integer> numMap = new HashMap<>();
@@ -35,6 +37,6 @@ public class Q1_TwoSum {
 
     public static void main(String[] args){
       int[] result = new int[]{0,1};
-      Assert.assertArrayEquals(Q1_TwoSum.twoSum(new int[]{2,7,11,15}, 9), result);
+      Assert.assertArrayEquals(Q1_Array_TwoSum.twoSum(new int[]{2,7,11,15}, 9), result);
     }
   }

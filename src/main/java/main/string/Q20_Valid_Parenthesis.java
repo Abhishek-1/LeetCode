@@ -1,3 +1,5 @@
+package main.string;
+
 import java.util.Stack;
 import org.junit.Assert;
 

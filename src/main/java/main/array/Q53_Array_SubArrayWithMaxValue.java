@@ -1,3 +1,5 @@
+package main.array;
+
 import org.junit.Assert;
 
 /**
@@ -10,7 +12,7 @@ import org.junit.Assert;
  * Explanation: [4,-1,2,1] has the largest sum = 6.
  *
  */
-public class Q53_Max_SubArray {
+public class Q53_Array_SubArrayWithMaxValue {
 
   /** Using sliding window **/
   public static int maxSubArray_SW(int[] nums) {
