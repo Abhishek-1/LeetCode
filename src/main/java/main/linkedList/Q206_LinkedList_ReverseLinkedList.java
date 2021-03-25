@@ -38,7 +38,20 @@ public class Q206_LinkedList_ReverseLinkedList {
 
 
     /** Using previous Node approach **/
+    public ListNode reverseList_PreviousNode(ListNode head) {
 
+      ListNode prev = null;
+
+      while(head != null){
+        ListNode temp = head.next;
+        head.next = prev;
+        prev = head;
+        head = temp;
+      }
+
+      return prev;
+
+    }
 
 
 
